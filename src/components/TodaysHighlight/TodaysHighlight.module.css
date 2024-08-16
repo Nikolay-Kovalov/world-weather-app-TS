@@ -1,0 +1,11 @@
+.item{
+    width: 340px;
+    height: 260px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+}
+
+.title {
+    color: #adb2bc;
+}

@@ -1,0 +1,5 @@
+.list{
+    padding-top: 96px;
+    display: flex;
+    gap: 12px;
+}

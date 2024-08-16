@@ -1,0 +1,83 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+    gap: 48px;
+    padding: 0 12px;
+
+}
+
+.img{
+    width: 240px;
+    height: 240px;
+}
+
+.temp{
+    font-size: 72px;
+}
+.date_wrapper{
+display: flex;
+justify-content: space-between;
+padding-bottom: 24px;
+border-bottom: 1px solid #e5e7eb;
+} 
+.cur_date{
+display: flex;
+gap: 4px;
+}
+
+.city{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.day_of_week{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cur_date{
+    font-size: 24px;
+}
+
+.month{
+    color: #8a8a8a;
+}
+
+.weather_descr{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.descr{
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+.descr:first-letter{
+text-transform: uppercase;
+}
+
+.time_icon{
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.descr_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cur_time_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.curr_time{
+    font-size: 20px;
+}
